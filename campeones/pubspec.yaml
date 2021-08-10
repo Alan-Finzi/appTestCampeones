@@ -32,6 +32,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  rxdart: ^0.27.1
+  flutter_native_splash: ^1.2.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -45,8 +47,13 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - campones2.jpg
+    - 1.png
+    - 2.png
+    - 3.png
+    - 4.png
+    - 5.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
